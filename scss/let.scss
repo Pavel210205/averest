@@ -1,0 +1,26 @@
+// TO REM
+@function rem($value) {
+    $remValue: (
+        $value / 16)+rem;
+    @return $remValue;
+}
+
+// TO EM
+@function em($value) {
+    $emValue: (
+        $value / 16)+em;
+    @return $emValue;
+}
+
+/*-----------------------ПЕРЕМЕННЫЕ-----------------------------------------------------------*/
+$mainColor: #061B28;
+$colorWriteText: #FCFCFC;
+$colorTextTwo: #A7AEB4;
+$colorIcon: #EC5118;
+$colorError: #ce2525;
+$colorGray: rgba(252, 252, 252, 0.40
+);
+$container: rem(1200);
+$fz: rem(16);
+$ff: "Roboto";
+$ffTwo: "Oswald";
